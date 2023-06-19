@@ -16,7 +16,7 @@ function highlight(table) {
   for( let i = 1; i < table.rows.length; i++ ) {
     let tableRow = table.rows[i];
     if (tableRow.cells[3].getAttribute('data-available') == undefined )
-      tableRow.setAttribute('hidden', true )
+      tableRow.hidden = true;
   
   //навешивает класс male/female
     if (tableRow.cells[2].textContent.includes('m'))
