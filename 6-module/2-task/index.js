@@ -1,5 +1,6 @@
 export default class ProductCard {
   constructor(product) {
+
     this.product = product;
     this.render();
   }
