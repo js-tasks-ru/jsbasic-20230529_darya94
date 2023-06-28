@@ -27,4 +27,3 @@ this.elem.querySelector( ".card__button" ).onclick = () => {
   }
 }
   }
-}
